@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5437BEA81AE8D52B00AE8F2B /* lens.png in Resources */ = {isa = PBXBuildFile; fileRef = 5437BEA71AE8D52B00AE8F2B /* lens.png */; };
+		5437BEAA1AE8DD2C00AE8F2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437BEA91AE8DD2C00AE8F2B /* DetailViewController.swift */; };
 		548BABA91AE486FB0031DB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BABA81AE486FB0031DB3C /* AppDelegate.swift */; };
 		548BABAB1AE486FB0031DB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BABAA1AE486FB0031DB3C /* ViewController.swift */; };
 		548BABAE1AE486FB0031DB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BABAC1AE486FB0031DB3C /* Main.storyboard */; };
 		548BABB01AE486FB0031DB3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548BABAF1AE486FB0031DB3C /* Images.xcassets */; };
 		548BABB31AE486FB0031DB3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548BABB11AE486FB0031DB3C /* LaunchScreen.xib */; };
 		548BABBF1AE486FB0031DB3C /* PHPAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BABBE1AE486FB0031DB3C /* PHPAppTests.swift */; };
+		54AAFEAE1AF0C00E0047454B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54AAFEB01AF0C00E0047454B /* InfoPlist.strings */; };
+		54CB6E721AE4CBF800FB2462 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CB6E711AE4CBF800FB2462 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5437BEA71AE8D52B00AE8F2B /* lens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lens.png; sourceTree = "<group>"; };
+		5437BEA91AE8DD2C00AE8F2B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		548BABA31AE486FB0031DB3C /* PHPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BABA71AE486FB0031DB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548BABA81AE486FB0031DB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,9 @@
 		548BABB81AE486FB0031DB3C /* PHPAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BABBD1AE486FB0031DB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548BABBE1AE486FB0031DB3C /* PHPAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPAppTests.swift; sourceTree = "<group>"; };
+		54AAFEAF1AF0C00E0047454B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54AAFEB11AF0C1410047454B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		54CB6E711AE4CBF800FB2462 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5437BEA61AE8D52B00AE8F2B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5437BEA71AE8D52B00AE8F2B /* lens.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		548BAB9A1AE486FB0031DB3C = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +94,16 @@
 		548BABA51AE486FB0031DB3C /* PHPApp */ = {
 			isa = PBXGroup;
 			children = (
+				5437BEA61AE8D52B00AE8F2B /* images */,
 				548BABA81AE486FB0031DB3C /* AppDelegate.swift */,
 				548BABAA1AE486FB0031DB3C /* ViewController.swift */,
 				548BABAC1AE486FB0031DB3C /* Main.storyboard */,
 				548BABAF1AE486FB0031DB3C /* Images.xcassets */,
 				548BABB11AE486FB0031DB3C /* LaunchScreen.xib */,
 				548BABA61AE486FB0031DB3C /* Supporting Files */,
+				54CB6E711AE4CBF800FB2462 /* MyTableViewCell.swift */,
+				5437BEA91AE8DD2C00AE8F2B /* DetailViewController.swift */,
+				54AAFEB01AF0C00E0047454B /* InfoPlist.strings */,
 			);
 			path = PHPApp;
 			sourceTree = "<group>";
@@ -175,6 +196,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 548BAB9A1AE486FB0031DB3C;
 			productRefGroup = 548BABA41AE486FB0031DB3C /* Products */;
@@ -193,8 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				548BABAE1AE486FB0031DB3C /* Main.storyboard in Resources */,
+				5437BEA81AE8D52B00AE8F2B /* lens.png in Resources */,
 				548BABB31AE486FB0031DB3C /* LaunchScreen.xib in Resources */,
 				548BABB01AE486FB0031DB3C /* Images.xcassets in Resources */,
+				54AAFEAE1AF0C00E0047454B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +238,8 @@
 			files = (
 				548BABAB1AE486FB0031DB3C /* ViewController.swift in Sources */,
 				548BABA91AE486FB0031DB3C /* AppDelegate.swift in Sources */,
+				54CB6E721AE4CBF800FB2462 /* MyTableViewCell.swift in Sources */,
+				5437BEAA1AE8DD2C00AE8F2B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +276,15 @@
 				548BABB21AE486FB0031DB3C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		54AAFEB01AF0C00E0047454B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AAFEAF1AF0C00E0047454B /* Base */,
+				54AAFEB11AF0C1410047454B /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +442,7 @@
 				548BABC41AE486FB0031DB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		548BABC51AE486FB0031DB3C /* Build configuration list for PBXNativeTarget "PHPAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +451,7 @@
 				548BABC71AE486FB0031DB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
